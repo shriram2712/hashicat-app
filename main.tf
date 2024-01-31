@@ -129,7 +129,7 @@ resource "aws_instance" "hashicat" {
 
   tags = {
     Name = "${var.prefix}-hashicat-instance",
-    Environment = "Dev",
+    Environment = "dev",
     Department = "Test"
   }
 }
@@ -144,7 +144,7 @@ resource "aws_instance" "hashicat2" {
 
   tags = {
     Name = "${var.prefix}-hashicat-instance",
-    Environment = "Dev",
+    Environment = "dev",
     Department = "Test"
   }
 }
